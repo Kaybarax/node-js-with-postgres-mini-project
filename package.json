@@ -4,9 +4,8 @@
   "license": "MIT",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "build": "tsc -p .",
-    "serve": "node dist/app.ts"
+    "start": "tsc && node dist/index.js",
+    "build": "tsc -p ."
   },
   "dependencies": {
     "express": "^4.18.2",
